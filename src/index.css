@@ -181,6 +181,18 @@ Markdown
   }
 }
 
+.navbar {
+  width: 100%;
+  min-height: 7vh;
+  font-size: 2rem;
+  text-align: center;
+
+  text-transform: capitalize;
+  font-weight: 1000;
+  color: white;
+  background-color: black;
+}
+
 .heading {
   border: black solid 3px;
   max-width: 100%;
@@ -190,7 +202,6 @@ Markdown
   font-weight: 1000;
   color: #fff;
   background-color: black;
-
   text-align: center;
 }
 

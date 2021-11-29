@@ -61,10 +61,13 @@ function App() {
     setInputText(e.target.value);
   };
   return (
-    <section className="markdown">
-      <Editor inputText={inputText} handleChange={handleChange} />
-      <Preview inputText={inputText} />
-    </section>
+    <>
+      <div className="navbar">markdown previewer</div>
+      <section className="markdown">
+        <Editor inputText={inputText} handleChange={handleChange} />
+        <Preview inputText={inputText} />
+      </section>
+    </>
   );
 }
 
